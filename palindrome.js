@@ -1,5 +1,5 @@
 
-function checkIfPalindrome(str){
+function checkIfPalindrome1(str){
     let result = Boolean
     const originalStr = str.toLowerCase()
     const newReversed = originalStr.split('').reverse().join('')
@@ -10,4 +10,17 @@ function checkIfPalindrome(str){
     console.log(newReversed, '-' ,originalStr, result);
 }
 
-checkIfPalindrome('DINOSSAUR')
+function checkIfPalindrome2(str){
+    const originalStr = str.toLowerCase()
+    let newReversed = ''
+    let result = Boolean
+    for(let char of originalStr){
+        newReversed = char + newReversed
+    }
+    originalStr === newReversed ? result = true : result = false
+
+    
+    console.log(newReversed, '-' ,originalStr, result);
+}
+
+checkIfPalindrome2('DINOSSAUR')
