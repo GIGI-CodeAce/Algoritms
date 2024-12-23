@@ -14,7 +14,6 @@ function checkIfAnagram1(str1,str2){
 }
 
 function checkIfAnagram2(str1,str2){
-     let stringB = str2.toLowerCase()
      let charMapA = {}
      let charMapB = {}
 
