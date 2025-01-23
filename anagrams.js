@@ -21,8 +21,8 @@ function checkIfAnagram2(str1,str2){
         let stringA = str.toLowerCase()
         for(let char of stringA){
             charMap[char] = ++charMap[char] || 1
-         }
-     }
+        }
+    }
      charMap(str1,charMapA)
      charMap(str2,charMapB)
 
@@ -30,7 +30,7 @@ function checkIfAnagram2(str1,str2){
     for(let key in charMapA){
         if (charMapA[key] !== charMapB[key]) return false
     }
-    
+
     return true
 }
 
