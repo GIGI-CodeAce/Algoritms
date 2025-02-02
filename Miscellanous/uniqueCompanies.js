@@ -25,4 +25,4 @@ function uniqueCompanies(products){
         return uniqueCompanies
 }
 
-console.log(uniqueCompanies(products));
+console.log(uniqueCompanies(products)); // [ 'Apple', 'Samsung', 'Nothing' ]

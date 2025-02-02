@@ -9,4 +9,4 @@ function arraysum(arr){
     return result
 }
 
-console.log(arraysum([2,3]));
+console.log(arraysum([2,3])); // 5

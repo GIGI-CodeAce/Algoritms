@@ -11,4 +11,4 @@ function remDupe(arr){
     return result
 }
 
-console.log(remDupe(['Duke', 'Sigma', 'Rizzler', 'Duke', 'Sigma', 'Batman']));
+console.log(remDupe(['Duke', 'Robert', 'Rizzler', 'Duke', 'Robert', 'Batman'])); // [ 'Duke', 'Robert', 'Rizzler', 'Batman' ]
