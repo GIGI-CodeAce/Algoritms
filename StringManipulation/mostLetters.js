@@ -1,8 +1,8 @@
 
-function maxChar(str){
+function mostLetters(str){
     const mapChar = {}
     let max = 0
-    let maxChar = ''
+    let mostLetters = ''
 
     for (let char of str){
         if(mapChar[char]){
@@ -12,9 +12,9 @@ function maxChar(str){
         }}
     for (let key in mapChar){
         max = mapChar[key]
-        maxChar = key
+        mostLetters = key
     }
-    console.log(max, 'of', maxChar);
+    console.log(max, 'of', mostLetters);
 }
 
-maxChar('haaha')
+mostLetters('haaha') // 3 of a
