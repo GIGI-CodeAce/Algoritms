@@ -15,4 +15,4 @@ function findVowels(str){
     return vowels
 }
 
-console.log(findVowels("Mountain Climbers"));
+console.log(findVowels("Mountain Climbers")); // 6

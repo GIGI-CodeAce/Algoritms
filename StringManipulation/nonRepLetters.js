@@ -15,4 +15,4 @@ function leastRepChar(str){
     return leastChar
 }
 
-console.log(leastRepChar('axacc'));
+console.log(leastRepChar('axacc')); // x

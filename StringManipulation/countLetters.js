@@ -11,4 +11,4 @@ function countLetters(str){
     return {result, resultObj}
 }
 
-console.log(countLetters('fffeeaaabbbb'));
+console.log(countLetters('fffeeaaabbbb')); // { result: '4b3a2e3f', resultObj: { f: 3, e: 2, a: 3, b: 4 } }

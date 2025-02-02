@@ -24,4 +24,4 @@ function capitalize3(str){
 }
 
 
-capitalize3('wassup bro')
+capitalize3('the cars are red') // The Cars Are Red

@@ -11,5 +11,5 @@ function unique(str) {
     return true;
 }
 
-console.log(unique('abcde'));
-console.log(unique('aabcde'));
+console.log(unique('abcde')); // true
+console.log(unique('aabcde')); // false

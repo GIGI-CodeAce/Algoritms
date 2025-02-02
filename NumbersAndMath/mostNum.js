@@ -13,7 +13,7 @@ function mostNum(nums){
         }
     }
  
-    return ['there are', maxCount, 'of', majority]
+    return [maxCount, 'of', majority]
 }
 
-console.log(mostNum([2, 2, 1, 1, 1, 2, 2]));
+console.log(mostNum([2, 2, 1, 1, 1, 2, 2])); // [ 4, 'of', '2' ]

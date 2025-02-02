@@ -23,4 +23,4 @@ function checkIfPalindrome2(str){
     console.log(newReversed, '-' ,originalStr, result);
 }
 
-checkIfPalindrome2('DINOSSAUR')
+checkIfPalindrome2('DINOSSAUR') // ruassonid - dinossaur false

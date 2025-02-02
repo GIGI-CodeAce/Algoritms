@@ -12,4 +12,4 @@ function countVow(str){
     return vowelscount
 }
 
-console.log(countVow('aeiou'));
+console.log(countVow('aeiouw')); // 5

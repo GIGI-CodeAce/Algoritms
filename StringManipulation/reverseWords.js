@@ -9,4 +9,4 @@ function reverseWords(str){
     return {result}
 }
 
-console.log(reverseWords('hello world'));
+console.log(reverseWords('hello world')); // { result: 'world hello' }

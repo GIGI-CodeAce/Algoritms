@@ -9,4 +9,4 @@ function lettersCount(str){
     return result
 }
 
-console.log(lettersCount("I hate balls"));
+console.log(lettersCount("I hate balls")); // 10

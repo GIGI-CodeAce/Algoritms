@@ -7,4 +7,4 @@ function maxProd(nums){
     return {result, nums}
 }
 
-console.log(maxProd([1, 2, 10]));
+console.log(maxProd([1, 2, 10])); // { result: 20, nums: [ 1, 2, 10 ] }

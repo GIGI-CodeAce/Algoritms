@@ -16,4 +16,4 @@ function largestPrime(arr){
 }
 
 
-console.log(largestPrime([4,5,7,8,9,11,12,17,97,47]));
+console.log(largestPrime([4,5,7,8,9,11,12,17,97,47])); // 97

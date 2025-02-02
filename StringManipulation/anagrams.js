@@ -34,5 +34,5 @@ function checkIfAnagram2(str1,str2){
     return true
 }
 
-console.log(checkIfAnagram1('coding money', 'money coding'));
-console.log(checkIfAnagram1('RAIL SAFETY', 'fairy tales'));
+console.log(checkIfAnagram1('coding money', 'money coding')); // { sortedStr1: 'cdegimnnooy', sortedStr2: 'cdegimnnooy', result: true }
+console.log(checkIfAnagram1('RAIL SAFETY', 'fairy tales')); // { sortedStr1: 'aaefilrsty', sortedStr2: 'aaefilrsty', result: true }
